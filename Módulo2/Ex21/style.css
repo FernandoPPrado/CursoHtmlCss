@@ -1,0 +1,14 @@
+div {
+    display: inline-block;
+    border: 2px solid black;
+    text-align: center;
+    background-color: darkgrey;
+    padding-top: 5px;
+    height: 200px;
+    width: 200px;
+}
+
+div:hover {
+    background-color: aquamarine;
+    color: orange;
+}

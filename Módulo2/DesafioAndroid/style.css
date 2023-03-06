@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: "oi";
+    src: url(fontes/idroid.otf);
+
+}
+
+body {
+    background-color: #9CF1BC;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(to top, #14502a, #1d733c, #24914c, #4BD27D, #7af3a8);
+
+}
+
+header>h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    text-align: center;
+    margin: 0px;
+    text-shadow: 1px 1px 3px rgb(60, 58, 58);
+}
+
+header>p {
+    font-size: 0.89em;
+    text-align: center;
+}
+
+header>nav {
+    padding-left: 5px;
+    height: 25px;
+}
+
+nav>div {
+    display: inline-block;
+    height: 20px;
+    border-radius: 5px;
+}
+
+nav>div:hover {
+    background-color: #24914c;
+}
+
+div>a {
+    font-size: 0.85em;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+div>a:hover {
+    color: #0e321b;
+
+}
+
+main {
+    text-indent: 10px;
+    background-color: white;
+    /* width: 700px; */
+    max-width: 700px;
+    min-width: 320px;
+    margin: auto;
+    text-align: justify;
+    box-shadow: 1px 1px 15px black;
+
+}
+
+main>img {
+    width: 100%;
+}
+
+article#cont {
+    padding: 10px;
+}
+
+article#cont>h2 {
+    font-family: "oi";
+    color: #1d733c;
+    margin-top: 0px;
+}
+
+article#cont>h3 {
+    font-family: "oi";
+    color: #24914c;
+    background-color: #9cf1bd52;
+}
+
+article#cont>picture>img {
+    width: 100%;
+    padding: 0px;
+}
+
+article#dois {
+    padding: 10px;
+}
+
+article#dois>h3 {
+    font-family: "oi";
+    margin-top: 0px;
+    color: #24914c;
+    background-color: #9cf1bd52;
+}
+
+article#dois>picture>img {
+    width: 100%;
+}
+
+article#dois>p#imagem {
+    text-align: center;
+}
+
+article#dois>img#bug {
+    width: 100%;
+}
+
+.link {
+    text-decoration: none;
+    color: #24914c;
+}
+
+section#video {
+    background-color: #113c21;
+    padding: 0px;
+    text-indent: 0px;
+    padding: 10px;
+}
+
+section#video>p {
+    text-align: center;
+}

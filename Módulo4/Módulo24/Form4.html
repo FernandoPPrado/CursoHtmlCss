@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Primeiro Fomr</h1>
+    <p>Se clicar em enviar, mesmo vazio ele envia, portanto usamos o required</p>
+    <form action="nomedoarquivoquequeremosenviarosdados.py" method="post">
+        <p><label for="IUse">User:</label>
+            <input type="text" name="Use" id="IUse" required minlength="5" maxlength="15" placeholder="Nome">
+        </p>
+        <p><label for="Isenha">Senha:</label>
+            <input type="password" name="senha" id="Isenha" required minlength="5" placeholder="Banana">
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetar">
+
+    </form>
+</body>
+
+</html>
